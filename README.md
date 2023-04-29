@@ -22,7 +22,7 @@ $ git add README.md && git ci -m "added step-by-step instruction in cli"
 $ git co main && git merge development
 
 # here we create ssh keys for github ssh connect
-$ ssh-keygen -o -t rsa -b 2048 -C "gafaroff77@gmail.com"
+$ ssh-keygen -o -t rsa -b 2048 -C "[registration e-mail]"
 $ cat ~/.ssh/id_rsa.pub
 
 # must store pub key to user's settings in github
